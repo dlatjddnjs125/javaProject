@@ -8,7 +8,7 @@ public class Variable3h {
 		a = 10;
 		b = 20;
 		int result = b / a;
-		System.out.println("result => " + result);
+		System.out.println("[[}{} " + result);
 	
 
 	}
