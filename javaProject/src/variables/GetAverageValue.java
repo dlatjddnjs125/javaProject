@@ -1,5 +1,7 @@
 package variables;
 
+import javax.swing.text.DefaultEditorKit.InsertContentAction;
+
 public class GetAverageValue {
 
 	public static void main(String[] args) {
@@ -7,8 +9,7 @@ public class GetAverageValue {
 		a = 17;
 		b = 18;
 		double c = (double) (a + b) / 2;
-		System.out.println("두 수의 평균은 : " + c + "입니다");
-		
+		System.out.println("두 수의 평균은 : " + c + " 입니다");
 
 	}
 
