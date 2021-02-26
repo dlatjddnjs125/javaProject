@@ -17,7 +17,11 @@ public class Exercise09 {
 			System.out.print("선택 > ");
 			
 			int selectNo = scanner.nextInt();
-			
+			if (selectNo != 1 && selectNo != 5 && scores == null) {
+				System.out.print("학생수를 입력하세요");
+				System.out.println();
+				continue;
+			}
 			if(selectNo ==1) {
 				System.out.print("학생 수 > ");
 				studentNum = scanner.nextInt();
@@ -45,8 +49,8 @@ public class Exercise09 {
 				int cnt = scores.length;
 				for (int i = 0; i < scores.length; i++) {
 					sum = sum + scores[i];
-					avg = (double) (sum ) / cnt; 
 				}
+				avg = (double) (sum ) / cnt; 
 //				System.out.println("배열의 합 : " + sum);
 				
 				sum = 0;
