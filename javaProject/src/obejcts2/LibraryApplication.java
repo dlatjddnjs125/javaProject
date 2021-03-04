@@ -14,15 +14,11 @@ public class LibraryApplication {
 			System.out.print("선택 > ");
 			int selectNo = scn.nextInt();
 			if(selectNo == 1) {
-				 String Title;
-				 String Author;
-				 String Press;
-				 int Price;
-//				 System.out.println(Book.length);
+				System.out.println("도서정보 입력 >");
+				System.out.println(bookList.length);
 				 for (int i=0; i<bookList.length; i++) {
 					 if(bookList[i] != null) {
 						 bookList[i] = new Book();
-						 System.out.println("도서정보 입력 >");
 						 
 						  
 						 

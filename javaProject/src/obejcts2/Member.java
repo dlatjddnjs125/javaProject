@@ -3,7 +3,7 @@ package obejcts2;
 public class Member {
 	private String memberId;
 	private String memberName;
-	private Book1[] rentBooks = new Book[5];
+	private Book[] rentBooks = new Book[5];
 	
 	public Member() {
 		
