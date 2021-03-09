@@ -1,6 +1,6 @@
 package controls;
 
-public class Exercise05 {
+public class Exercise05_P {
 	public static void main(String[] args) {
 		// 임의의 값 두수를 35, 60
 		// 35~60까지의 합을 구하는 프로그램 생성.
