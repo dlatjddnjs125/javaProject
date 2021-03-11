@@ -50,7 +50,4 @@ public class Board {
 		return "Board [boardNo=" + boardNo + ", title=" + title + ", content=" + content + ", writer=" + writer
 				+ ", creationDate=" + creationDate + "]";
 	}
-	
-	
-
 }

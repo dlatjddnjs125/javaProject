@@ -13,6 +13,10 @@ public class Account {
 		this.balance = balance;
 
 	}
+	
+	public Account(String ano) {
+		this.ano = ano;
+	}
 	public Account() {
 		
 	}
@@ -30,6 +34,8 @@ public class Account {
 		return balance;
 	}
 
+	
+	
 	public void setBalance(int balance) {
 		if(balance <MIN || balance >MAX) {
 			balance = this.balance;
@@ -43,6 +49,10 @@ public class Account {
 
 	public void setOwner(String owner) {
 		this.owner = owner;
+	}
+	@Override
+	public String toString() {
+		return "Account [계좌번호=" + ano + ", 계좌주=" + owner + ", 잔액=" + balance + "]";
 	}
 	
 	
